@@ -182,22 +182,15 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
+
   /*Start up indication*/
-//    BSP_LED_Init(LED1);
-  uint8_t i;
-  for (i = 0; i < 8; i++) {
-//        BSP_LED_Toggle(LED1);
-      HAL_Delay(50);
-  }
 
   lv_init();
 
   tft_init();
   touchpad_init();
 
-
   demo_create();
-
 
   /* USER CODE END 2 */
 

@@ -6,7 +6,7 @@ LittlevGL ported to STM32F746G-DISCO
 2. Clone (or download) this GitHub repository to a folder on your computer and update the submodules:
 
 ```sh
-git clone --recursive --branch dev-6.0 --single-branch https://github.com/littlevgl/stm32f746_disco_no_os_atollic.git
+git clone --recursive https://github.com/littlevgl/stm32f746_disco_no_os_atollic.git
 ```
 
 3. Import the project into your workspace.

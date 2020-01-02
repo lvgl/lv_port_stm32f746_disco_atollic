@@ -1,3 +1,5 @@
+**DEPRECATED:** Please use the [SW4STM32/STM32CubeIDE project](https://github.com/littlevgl/lv_port_stm32f746_disco_sw4stm32) instead.
+
 # stm32f746_disco_no_os
 LittlevGL ported to STM32F746G-DISCO
 
